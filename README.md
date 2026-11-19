@@ -41,6 +41,38 @@ Hardware signing works the same way. A Ledger or a Trezor holds the key, the app
 
 This repository is part of the Conflux Wallet GitHub presence and points at the staking and hardware guides rather than repeating them.
 
+## Who it is for
+
+- You hold CFX on Core Space and want to stake it without a second interface or a second login.
+- You sign with a Ledger or a Trezor and want each transaction approved on the device.
+- You are planning an exit and need to know why an unstake is not immediate.
+
+## Your first ten minutes
+
+1. Open the staking view and confirm the wallet is on Core Space, because staking does not exist on eSpace.
+2. Check that the account holds at least 1,000 CFX for the vote you intend to lock.
+3. Cast the vote and note the staked, unlocking and reward balances as they appear beside spendable CFX.
+4. Connect the hardware device, open the right app on it, and approve one small transaction to prove the pairing.
+5. Read the unstake guide before you need it: the 13-day entry period comes first, and the balance returns in stages.
+
+## What this page covers, and what it does not
+
+This page is about what the wallet does with a staked position and a hardware signature. It does not document this repository's contracts, their interfaces or their deployment, and it quotes no reward rate: the rate varies by mechanism and period, so the app shows your position instead. A reward figure copied from an old post is the most common wrong number in staking questions, which is why none appears here.
+
+## Questions before you download
+
+### Can I stake CFX on eSpace?
+
+No. Staking is a Core Space operation, and the staking view only acts on Core Space accounts. eSpace holds CFX for contracts and transfers, not for votes.
+
+### Why is my unstaked CFX not available yet?
+
+A voting position returns in stages, and the 13-day entry period comes before the unlock. The balance is visible as unlocking rather than spendable until the process finishes.
+
+### Does a Trezor sign Core Space transactions?
+
+Trezor is documented for eSpace, where it signs through the Ethereum app. For Core Space, the hardware guide names the device and app combination that works, so check it before you lock a position.
+
 ---
 
 ## Guides
